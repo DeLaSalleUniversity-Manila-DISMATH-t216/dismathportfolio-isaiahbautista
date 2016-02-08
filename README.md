@@ -10,12 +10,19 @@ WEEK 1
 ➤ Introduction to Logical Operations
 
 Logical Symbol	Logical Operator	Shorthand	Logical Expression
+
 ¬	Negation	not	¬p
+
 ∧	Conjunction	and	p ∧ q
+
 v	Disjunction	or	p v q
+
 ⊕	Exclusive Disjunction	xor	p ⊕ q
+
 →	Conditional	if, then	p → q
+
 ↔	Biconditional	iff	p ↔ q
+
 
 ➤ Propositional Logic: (p → q)
 
@@ -90,6 +97,7 @@ Here are some of the logical euivalences:
     ✓ p v ¬p ≡ T
 
     ✓ p ∧ ¬p ≡ F 
+    
 ➤ Rules of Interference are used to test the validity of arguments.
 
 
@@ -171,9 +179,9 @@ WEEK 4
 ➤ Summation
 
   - Symbol: ∑
+  - addition of a sequence of numbers
 
-  - Is the addition of a sequence of numbers; the result is called the sum or the total. 
-  -
+
 ➤ Recursive/Inductive
 
   - Repeated application of functions in order to solve a function. 
