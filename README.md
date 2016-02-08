@@ -6,7 +6,9 @@ WEEK 1
 
 ➤ Introduction of some applications of Dismath in certain word problems
 
-  E.g. Knights and Knaves
+Ex. Knights and Knaves
+
+  
 ➤ Introduction to Logical Operations
 
 Logical Symbol	Logical Operator	Shorthand	Logical Expression
@@ -36,6 +38,7 @@ v	Disjunction	or	p v q
    
    
 WEEK 2
+
 ➤ Logical Equivalences helps in simplification of logical statments
 I have yet to memorize ALL of these. 
 Here are some of the logical euivalences:
@@ -133,6 +136,7 @@ Resolution	p ∨ q, ¬p ∨ r ∴q ∨ r
    
   
 WEEK 3
+
 ➤ Introduction to Methods of Proof
 
 ∙ Direct Proof:
@@ -161,6 +165,7 @@ WEEK 3
     
     
 WEEK 4
+
 ➤ Mathematical Induction
 
 
