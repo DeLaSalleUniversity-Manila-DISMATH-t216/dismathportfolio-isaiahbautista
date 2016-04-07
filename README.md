@@ -277,7 +277,7 @@ Steps:
 
 - is a finite set of precise instruction
 
-    Precondition- describes the input
+   Precondition- describes the input
 
    Postcondition- describes what the output should satisfy
 
@@ -294,6 +294,177 @@ Steps:
        • Finiteness
 
        • Generality
+       
+       
+  ##Week 9
+  
+  ➤ Seaching Algorithm-The problem of locating an element in an ordered list
+
+  ➤ Linear Search
+    - Precondition: ({A1,A2,...,Ai,...An})
+
+      Postcondition: location of x (loc)
+
+  Code:
+  i=1
+
+  while [(x≠A)^(i≤n)]
+
+      i = i+1
+
+    if(i≤n)
+
+      loc = i
+
+    else
+
+       loc = -1
+       
+➤ Binary Search
+-  Precondition: ({A1,A2,...,Ai,...An})
+
+   Postcondition: location of x (loc)
+
+      Code:
+      while [(i≠j) ≠ (i>j)]
+
+         mid = [(i+j)/2]
+
+            if x>A(mid) 
+
+               then i = 1+mid
+
+            else j=mid
+
+            if (x==Ai)
+
+                loc=i
+
+            else 
+            loc = -1;
+            
+  ##Week 10
+  
+  ➤ Sorting Algorithm
+- the problem of putting elements in increasing order
+
+  ➤ Bubble sort
+- Precondition: ({A1,A2,...,Ai,...An})
+
+  Postcondition: (X1<X2<...<Xn)
+
+      for j: 1 to n-1
+
+         for i: 1 to n-j
+
+            if(Ai > Aj+1)
+
+               swap (Ai,Ai+1)
+               
+➤ Insertion sort
+- Precondition: ({A1,A2,...,Ai,...An}) ∈ n≥2 for j= 2 to n
+
+  Postcondition: (X1<X2<...<Xn)
+      
+      Code:
+      for j = 2 to n
+
+          i = 1
+
+      while Aj>Ai
+
+          i = i+1
+
+       m = Aj
+
+       for k = 0 to j-i-1
+
+        Aj-k = Aj-i-1
+
+      Ai = m
+      
+➤ Greedy Algorithm
+•	Selects the best choice instead of considering all sequences
+•	Can be applied in optimization problems
+
+Precondition: ({C1,C2,...,Ci,...Cn})
+Postcondition: (C1>C2>...>Cni n ∈ Z+)
+
+  Code:
+  for i = 1 to 4 
+
+    while(n≥Ci)
+
+        n = n-Ci
+
+           n = n+1
+  end
+  
+##Week 11
+
+➤ Growth of Functions
+- is often described using the big o notation
+➤ Big O Notation
+- Let f and g be functions from R to Ri f(x) is O(g(x)) if there are constants c and k such that 
+  |f(x)|≤ C|g(x)| whenever x>k
+➤ Big Omega
+- lower bound of a function 
+  
+➤ Big Theta
+- lower and upper bound of a function
+➤ Complexity of Algorithms
+- can be expressed in term of the number of operationsused by the algorithm when the input has a particular size
+
+##Week 12
+-no classes this week
+
+##Week 13
+➤ Graph Theory  G(V,E)
+- consist of vertices/nodes and degrees/edges
+Vertices- the points in the graph
+Edges- composed of two vertices
+Degree- number of connections to the vertice
+
+➤ Handshaking Theorem
+- formula: 2e = Σ(degrees)*v
+
+➤ Euler Path
+- covers all the edges/degrees only once
+- is open 
+- has a different starting and ending point
+- 
+➤ Euler Circuit
+- covers all the edges/degrees only once 
+- is closed 
+- has the same starting and ending point
+➤ Hamilton Path
+- covers all the nodes/vertices only once
+- is open
+- has a different starting and ending point
+➤ Hamilton Circuit
+- covers all the nodes/vertices only once
+- is closed
+- has the same starting and ending point
+➤ Matrices
+• Adjacency Matrix
+   - relationship between the nodes/vertices 
+
+• Incidence Matrix
+   - relationship between the edges/degrees
+➤ Isomorphism
+- is the comparison of 2 graphs
+➤ Planar
+- is a plane that has no intersecting lines/edges/degrees
+➤ Non-Planar
+- is a plane that has intersecting lines/edges/degrees
+➤ Euler's Formula
+- formula: r = e(edges) - v(vertices) + 2
+
+
+##Week 14
+  Tree
+        
+
 
   
   
