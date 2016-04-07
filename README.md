@@ -200,4 +200,102 @@ Resolution	p ∨ q, ¬p ∨ r ∴q ∨ r
   2. Recursive Step
       - create a statement that makee the function true for any value substituted to it. 
 
+##WEEK 5
+
+Program Correctness
+
+Steps:
+
+  1 Partial correctness
+
+      - initial assertion(input)
+
+      - final assertion (output)
+
+  2. Show that the program terminates correctly
+    Hoare Triple: p{S}q
+
+     given:
+
+        p = initial assertion
+
+       {S} = program segment
+
+        q = final assertion
+
+      Steps:
+
+        1. Assume tha p is TRUE
+
+        2. Substitute to the program {S}, showing that q is TRUE
+        
+ Power Series
+
+  -Example: Zeno's Paradox
+
+   Can be solved using GEOMETRIC SERIES formula:
+
+    a1/ 1-r
+    
+  Introduction to set theory
+
+  Set-  an unordered collection of objects
+
+  a. Set Difference
+      (A-B) or (A/B)
+
+  b. Set Intersection
+        A△B
+
+  Power Set- a set containing all subsets
+  
+  ##Week 6
+  
+  Cardinality- total number of distinct elements
+  
+  No- pronounced as "aleph zero"/"aleph-null"
+  
+  Had a review about nested quantifiers
+  - a for loop within another for loop
+  
+  Functions
+
+  Types:
+  1. One to one function
+    - each domain is assigned to a certain co-domain
+    - no common co-domain
+  2. Onto Function
+    -each co-domain is assigned to a domain.
+    - no co-domain is left without a partner. 
+    
+##Week 7
+-no classes
+
+##Week 8
+
+➤ Algorithm
+
+- is a finite set of precise instruction
+
+    Precondition- describes the input
+
+   Postcondition- describes what the output should satisfy
+
+    ✓ Properties:
+
+       • Input
+
+       • Output
+
+       • Definiteness
+
+       • Correctness
+
+       • Finiteness
+
+       • Generality
+
+  
+  
+  
       
