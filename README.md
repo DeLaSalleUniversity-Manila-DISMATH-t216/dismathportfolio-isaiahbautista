@@ -1,6 +1,6 @@
 # dismathportfolio-isaiahbautista
 
-WEEK 1
+##WEEK 1
 
 ➤ Orientation about the course DISMATH (Discrete Mathematics)
 
@@ -37,7 +37,7 @@ v	Disjunction	or	p v q
    ✓ Contraposition: ¬q → ¬p 
    
    
-WEEK 2
+##WEEK 2
 
 ➤ Logical Equivalences helps in simplification of logical statments
 I have yet to memorize ALL of these. 
@@ -135,7 +135,7 @@ Resolution	p ∨ q, ¬p ∨ r ∴q ∨ r
   - Symbol: ∃(x)
    
   
-WEEK 3
+##WEEK 3
 
 ➤ Introduction to Methods of Proof
 
@@ -164,7 +164,7 @@ WEEK 3
     Second Step: Using an assumption and other facts show that it is a contraposition
     
     
-WEEK 4
+##WEEK 4
 
 ➤ Mathematical Induction
 
