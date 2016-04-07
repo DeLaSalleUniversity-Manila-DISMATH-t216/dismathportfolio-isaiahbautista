@@ -260,10 +260,10 @@ Steps:
   
   Functions
 
-  Types:
   1. One to one function
     - each domain is assigned to a certain co-domain
     - no common co-domain
+    -
   2. Onto Function
     -each co-domain is assigned to a domain.
     - no co-domain is left without a partner. 
@@ -306,6 +306,7 @@ Steps:
       Postcondition: location of x (loc)
 
   Code:
+  
   i=1
 
   while [(x≠A)^(i≤n)]
@@ -326,6 +327,7 @@ Steps:
    Postcondition: location of x (loc)
 
       Code:
+      
       while [(i≠j) ≠ (i>j)]
 
          mid = [(i+j)/2]
@@ -432,7 +434,7 @@ Degree- number of connections to the vertice
 - covers all the edges/degrees only once
 - is open 
 - has a different starting and ending point
-- 
+
 ➤ Euler Circuit
 - covers all the edges/degrees only once 
 - is closed 
@@ -462,7 +464,29 @@ Degree- number of connections to the vertice
 
 
 ##Week 14
-  Tree
+
+  Tree- undirected graph with no circuit. Cotains leaves and parents.
+  Parents- no with children
+  Leaf- node without children
+  
+  Forest- 2 or more trees
+  
+  Rooted Tree- with a "root" at top of the graph
+  Internal Vertice- node without children
+  
+  M-ary tree- contains uniform children throughout the tree
+  
+  Ordered rooted tree- follows a certain order, cannot be interchanged
+  
+  Modeling Computation
+  Grammars- used to generate words of a language and determine if the word is a language
+  Formal languages- provide models for natural languages
+  
+  Alan Turing- Father of computation
+  
+  
+  
+  
         
 
 
